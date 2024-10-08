@@ -23,6 +23,7 @@ public class NotesSteps {
 
     @When("program reads output excel")
     public void programReadsOutputExcel() {
+
         int count=0;
         try (FileWriter logFile = new FileWriter("src/test/resources/logs/notes_log.txt", true)) {
 
